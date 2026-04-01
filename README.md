@@ -1,6 +1,6 @@
-Sistema de Vendas - Teste Técnico Intesis
+# Sistema de Vendas - Teste Técnico Intesis
 
-Descrição
+## Descrição
 Este projeto é um sistema de gerenciamento de vendas desenvolvido como parte de um teste técnico.
 
 O sistema permite:
@@ -10,36 +10,36 @@ O sistema permite:
 - Cálculo automático do total da venda
 - Histórico completo de vendas
 
-Tecnologias utilizadas
+##Tecnologias utilizadas
 
-# Backend
+### Backend
 - Node.js
 - Express
 - PostgreSQL
 - pg (driver)
 
-# Frontend
+### Frontend
 - HTML
 - CSS
 - JavaScript (Vanilla)
 
 ---
 
-# Funcionalidades
+## Funcionalidades
 
-# Clientes
+### Clientes
 - Cadastro
 - Edição inline na tabela
 - Exclusão
 - Validação de CPF/CNPJ
 
-# Produtos
+### Produtos
 - Cadastro
 - Edição inline
 - Exclusão
 - Formatação de preço
 
-# Vendas
+### Vendas
 - Seleção de cliente
 - Adição de múltiplos produtos
 - Definição de quantidade
@@ -52,7 +52,7 @@ Tecnologias utilizadas
 
 ---
 
-# Banco de dados
+## Banco de dados
 
 O projeto utiliza PostgreSQL com as seguintes tabelas:
 - clientes
@@ -64,7 +64,7 @@ Arquivo SQL disponível para criação do banco.
 
 ---
 
-# Como rodar o projeto
+## Como rodar o projeto
 
 1. Clonar o repositório
 ```bash

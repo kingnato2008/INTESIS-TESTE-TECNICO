@@ -66,7 +66,7 @@ Arquivo SQL disponível para criação do banco.
 
 # Como rodar o projeto
 
-# 1. Clonar o repositório
+1. Clonar o repositório
 ```bash
 git clone https://github.com/kingnato2008/INTESIS-TESTE-TECNICO.git
 cd INTESIS-TESTE-TECNICO

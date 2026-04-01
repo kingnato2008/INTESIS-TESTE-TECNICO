@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clientes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h2>Clientes</h2>
+
+<form id="formCliente">
+  <input id="nome" placeholder="Nome completo" required>
+  <input id="cpf_cnpj" placeholder="CPF/CNPJ" required maxlength="18">
+  <button type="submit">Cadastrar</button>
+</form>
+
+<br><br>
+
+<input type="text" id="searchInput" placeholder="Pesquisar...">
+
+<br><br>
+
+<button onclick="window.location.href='index.html'">Voltar</button>
+
+<br><br>
+
+<table id="tabelaClientes">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Documento</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

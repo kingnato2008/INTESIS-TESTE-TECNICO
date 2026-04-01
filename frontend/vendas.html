@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vendas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h2>Vendas</h2>
+
+  <select id="clienteSelect"></select>
+  <select id="produtoSelect"></select>
+  <input type="number" id="quantidade" value="0" min="0">
+  <button onclick="addItem()">Adicionar</button>
+
+  <h3>Total: R$ <span id="total">0</span></h3>
+
+  <button onclick="finalizarVenda()">Finalizar Venda</button>
+
+  <br><br>
+
+  <input type="text" id="searchInput" placeholder="Pesquisar...">
+  
+  <br><br>
+
+  <button onclick="window.location.href='index.html'">Voltar</button>
+
+  <h3>Histórico</h3>
+
+  <table id="tabelaVendas">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Cliente</th>
+        <th>Itens</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

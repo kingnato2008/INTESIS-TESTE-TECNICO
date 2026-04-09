@@ -1,6 +1,7 @@
 const pool = require('../database/database');
 const { validarDocumento } = require('../utils/validacoes');
 
+
 exports.getClientes = async (req, res) => {
   const result = await pool.query('SELECT * FROM clientes');
   res.json(result.rows);
